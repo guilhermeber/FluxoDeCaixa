@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvTipoLista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Tipo"
+        app:layout_constraintStart_toEndOf="@+id/tvSimbolo"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvDataLista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="00/00/0000"
+        app:layout_constraintBottom_toBottomOf="@+id/tvTipoLista"
+        app:layout_constraintStart_toEndOf="@+id/tvTipoLista"
+        app:layout_constraintTop_toTopOf="@+id/tvTipoLista" />
+
+    <TextView
+        android:id="@+id/tvSeparador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="-"
+        app:layout_constraintBottom_toBottomOf="@+id/tvDataLista"
+        app:layout_constraintStart_toEndOf="@+id/tvDataLista"
+        app:layout_constraintTop_toTopOf="@+id/tvDataLista" />
+
+    <TextView
+        android:id="@+id/tvDetalhesLista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Detalhes"
+        app:layout_constraintBottom_toBottomOf="@+id/tvSeparador"
+        app:layout_constraintStart_toEndOf="@+id/tvSeparador"
+        app:layout_constraintTop_toTopOf="@+id/tvSeparador" />
+
+    <TextView
+        android:id="@+id/tvSeparador2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="-"
+        app:layout_constraintBottom_toBottomOf="@+id/tvDetalhesLista"
+        app:layout_constraintStart_toEndOf="@+id/tvDetalhesLista"
+        app:layout_constraintTop_toTopOf="@+id/tvDetalhesLista" />
+
+    <TextView
+        android:id="@+id/tvValorLista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="0.000,00"
+        app:layout_constraintBottom_toBottomOf="@+id/tvSeparador2"
+        app:layout_constraintStart_toEndOf="@+id/tvSeparador2"
+        app:layout_constraintTop_toTopOf="@+id/tvSeparador2" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="51dp" />
+
+    <TextView
+        android:id="@+id/tvSimbolo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="+/-"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Meu Fluxo De Caixa</string>
+    <string-array name="tipo">
+        <item>Selecione</item>
+        <item>Crédito</item>
+        <item>Debíto</item>
+    </string-array>
+    <string-array name="debito">
+        <item>Selecione</item>
+        <item>Alimentação</item>
+        <item>Transporte</item>
+        <item>Saúde</item>
+        <item>Moradia</item>
+        <item>Outros</item>
+    </string-array>
+    <string-array name="credito">
+        <item>Selecione</item>
+        <item>Salário</item>
+        <item>Extras</item>
+        <item>Outros</item>
+    </string-array>
+</resources>

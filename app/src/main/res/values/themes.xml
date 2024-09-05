@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FluxoDeCaixa" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@android:color/holo_orange_light</item>
+        <item name="android:statusBarColor">@android:color/holo_orange_light</item>
+    </style>
+
+    <style name="Theme.FluxoDeCaixa" parent="Base.Theme.FluxoDeCaixa" />
+</resources>
